@@ -1,0 +1,8 @@
+def equation(a, b):
+	if a == 0:
+		if b == 0:
+return "nema" if b else "bezlich"
+	n = (-b)/a
+	float('{:.2f}'.format(n))
+	return '%.2f' % n
+print(equation(,))
